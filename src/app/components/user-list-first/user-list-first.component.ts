@@ -19,6 +19,3 @@ export class UserListFirstComponent implements OnInit {
     this.stream$.next();
   }
 }
-
-// Problem: as comment has no changeDetection: ChangeDetectionStrategy.OnPush it can lead to performance issue.
-// Solution: add changeDetection: ChangeDetectionStrategy.OnPush here and in it children components.

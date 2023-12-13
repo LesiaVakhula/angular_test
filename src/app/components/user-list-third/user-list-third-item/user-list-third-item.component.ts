@@ -13,6 +13,3 @@ export class UserListThirdItemComponent implements OnInit {
 
   ngOnInit(): void {}
 }
-
-// Problem:  encapsulation is set to ViewEncapsulation.None, it can lead to issue with overwriting styles.
-// Solution: set encapsulation to ViewEncapsulation.Emulated or just remove option 'encapsulation: ViewEncapsulation.None'.

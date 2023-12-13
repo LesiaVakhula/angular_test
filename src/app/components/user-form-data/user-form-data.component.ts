@@ -29,8 +29,3 @@ export class UserFormDataComponent implements OnInit {
     this.country.reset('Israel');
   }
 }
-
-// Problem: no problem only way of form controls implementation, it ts better to use Form builder that create from group with controls.
-// Form can be updated or reset by calling one method 'reset', 'setValue' or 'patchValue'.
-
-// Need to set change detection strategy to OnPush.
