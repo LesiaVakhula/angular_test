@@ -1,0 +1,25 @@
+.name,
+.address {
+  margin: 12px 6px;
+
+  input {
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #a7a8a8;
+    padding: 4px 8px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+}
+
+button {
+  background-color: #0daa90;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 8px;
+  &:hover {
+    background-color: #088b76;
+  }
+}

@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  gap: 16px;
+}
+.navigation-btn {
+  background-color: #98e7fb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover {
+    background-color: #78b6c5;
+  }
+
+  &.active-link {
+    background-color: #44b5d1;
+
+    &:hover {
+      background-color: #78b6c5;
+    }
+  }
+}

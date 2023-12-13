@@ -1,0 +1,31 @@
+<form>
+  <div class="name">
+    <label>
+      First Name:
+      <input type="text" placeholder="First Name" [formControl]="firstName" />
+    </label>
+  </div>
+  <div class="name">
+    <label>
+      Last Name:
+      <input type="text" placeholder="Last Name" [formControl]="lastName" />
+    </label>
+  </div>
+  <div>
+    <p>Address:</p>
+    <div class="address">
+      <label>
+        Country:
+        <input type="text" placeholder="Country" [formControl]="country" />
+      </label>
+    </div>
+    <div class="address">
+      <label>
+        City:
+        <input type="text" placeholder="City" [formControl]="city" />
+      </label>
+    </div>
+  </div>
+</form>
+<button (click)="reset()">Reset</button>
+<button (click)="setInitial()">Set Initial</button>

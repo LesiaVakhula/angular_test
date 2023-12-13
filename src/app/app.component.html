@@ -1,0 +1,38 @@
+<nav>
+  <button
+    class="navigation-btn"
+    routerLink="/user-list-first"
+    routerLinkActive="active-link"
+  >
+    {{ "first list" | uppercase }}
+  </button>
+  <button
+    class="navigation-btn"
+    routerLink="/user-list-second"
+    routerLinkActive="active-link"
+  >
+    {{ "second list" | uppercase }}
+  </button>
+  <button
+    class="navigation-btn"
+    routerLink="/user-list-third"
+    routerLinkActive="active-link"
+  >
+    {{ "third list" | uppercase }}
+  </button>
+  <button
+    class="navigation-btn"
+    routerLink="/main"
+    routerLinkActive="active-link"
+  >
+    {{ "go to main component" | uppercase }}
+  </button>
+  <button
+    class="navigation-btn"
+    routerLink="/lazy"
+    routerLinkActive="active-link"
+  >
+    {{ "go to lazy component" | uppercase }}
+  </button>
+</nav>
+<router-outlet></router-outlet>
